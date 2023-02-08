@@ -1,0 +1,23 @@
+.circular_progress_bar {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.circular_progress_bar .circle-background, .circular_progress_bar .circle-progress {
+    fill: none;
+}
+.circular_progress_bar .circle-background {
+    stroke: #fff7f2;
+}
+.circular_progress_bar .circle-progress {
+    stroke: #CDCCF4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.circular_progress_bar .circle-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    fill: #FFD4A1;
+}
+

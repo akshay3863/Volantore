@@ -1,0 +1,97 @@
+.custom_html_table{
+    overflow: auto;
+}
+.custom_html_table .responsive-table li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.custom_html_table .responsive-table {
+    padding: 0;
+}
+.custom_html_table .responsive-table .table-header {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 10px 16px;
+    border: 1px solid #D6DDEB;
+    border-radius: 8px;
+}
+.custom_html_table .responsive-table .table-row {
+    padding: 16px;
+}
+.custom_html_table .responsive-table .table-row .col{
+    display: flex;
+    align-items: center;
+}
+.custom_html_table .responsive-table .tbody .table-row{
+    padding: 10px 16px;
+}
+.custom_html_table .responsive-table .tbody{
+    border: 1px solid #D6DDEB;
+    border-radius: 8px;
+}
+.custom_html_table .responsive-table .table-header{
+    margin-bottom: 14px;
+}
+.custom_html_table .responsive-table .table-header .col{
+    color: #86879C;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.custom_html_table .responsive-table .col:nth-child(1){
+    width: 7%;
+}
+.custom_html_table .responsive-table .col:nth-child(2) {
+    width: 25%;
+    text-transform: capitalize;
+}
+.custom_html_table .responsive-table .col:nth-child(3) {
+    width: 20%;
+    text-transform: capitalize;
+}
+.custom_html_table .responsive-table .col:nth-child(4) ,.col:nth-child(5) {
+    width: 10%;
+    text-transform: capitalize;
+}
+.custom_html_table .table-header .col:nth-child(6) {
+    justify-content: center !important;
+}
+.custom_html_table .responsive-table .col:nth-child(6) {
+    width: 300px;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+.custom_html_table .responsive-table .table-row:nth-child(odd) {
+    background: #F8F8FD;
+}
+
+@media all and (max-width: 767px) {
+    .custom_html_table .responsive-table {
+        width: 800px;
+        overflow-x: scroll;
+    }
+    .custom_html_table .responsive-table .col:nth-child(2) {
+        width: 300px;
+    }
+    .custom_html_table .responsive-table .col:nth-child(3) {
+        width: 300px;
+    }
+    .custom_html_table .responsive-table .col:nth-child(4) {
+        width: 200px;
+    }
+    .custom_html_table .responsive-table .col:nth-child(5) {
+        width: 200px;
+    }
+    .custom_html_table .responsive-table .col:nth-child(6) {
+        width: 500px;
+        justify-content: space-between;
+        text-transform: capitalize;
+    }
+}
